@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- LINKS -->
+  <link rel="shortcut icon" href="./recursos/ico/pickle.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="stylesheet" href="./css/footer.css">
+
+  <!-- SCRIPTS -->
+  <script src="https://kit.fontawesome.com/aff2bef688.js" crossorigin="anonymous"></script>
+  <script src="./js/app.js" type="module" defer></script>
+  <script src="./js/card-characters.js" defer></script>
+  <script src="./js/card-location.js" defer></script>
+
+  <title>Rick and Morty</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="menu">
+      <div class="menu-container-left">
+        <div class="img-left">
+          <img src="./recursos/image/nave-espacial.png" alt="Imagem de nave espacial do menu" />
+        </div>
+
+        <div class="img-right">
+          <img src="./recursos/image/icone-rick-and-morty.png" alt="Icone do Rick and Morty do menu" />
+        </div>
+      </div>
+
+      <nav class="menu-container-right">
+        <li>
+          <a href="./index.html"><span>Home</span></a>
+        </li>
+        <li>
+          <a href="/episodes" onclick="route()"><span>Episodes</span></a>
+        </li>
+        <li>
+          <a href="/location" onclick="route()"><span>Location</span></a>
+        </li>
+
+        <div class="arrows__menu">
+          <button class="back-page" onclick="window.history.back()">
+            <i class="fa-solid fa-circle-arrow-left" style="color: #36a845;"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- <header>
+    <nav class="menu-container">
+        <a href="/" onclick="route()">Home</a>
+        <a href="/vermelho" onclick="route()">Vermelho</a>
+        <a href="/azul" onclick="route()">Azul</a>
+    </nav> 
+</header>-->
+
+  <main id="root">
+    <section class="home" id="home">
+      <div class="content-home">
+        <div class="home__text">
+          <h1 class="text__title">Rick <span>and</span> <br> Morty</h1>
+          <div class="pickle">
+            <img src="./recursos/image/pickle.png" alt="">
+          </div>
+        </div>
+
+        <div class="image__home">
+          <img src="./recursos/image/rick_and_morty_portal.png" alt="Imagem de centro do Rick and Morty">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="menu__footer">
+      <div class="menu__footer__left">
+        <li class="social">
+          <a href="https://github.com/LaylaGiovanna">
+            <i class="fa-brands fa-github fa-fade" style="color: #fff;"></i>
+          </a>
+        </li>
+
+        <li class="social">
+          <a href="https://www.instagram.com/laylaagii">
+            <i class="fa-brands fa-instagram fa-fade" style="color: #fff;"></i>
+          </a>
+        </li>
+
+        <li class="social">
+          <a href="">
+            <i class="fa-solid fa-envelope fa-fade" style="color: #fff;"></i>
+          </a>
+        </li>
+      </div>
+
+      <div class="menu__footer__right">
+        <span>Todos os direitos reservados 2023 | Desenvolvido por Layla Giovanna</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
