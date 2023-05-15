@@ -1,4 +1,4 @@
-'use strict'
+/* 'use strict'
 
 const { loadEpisodes } = require("./card-characters")
 const { loadLocation } = require("./card-location")
@@ -30,4 +30,4 @@ const route = async() => {
 
 }
 
-window.route = route
+window.route = route */

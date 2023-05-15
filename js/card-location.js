@@ -100,9 +100,9 @@ locationSelect.addEventListener("change", (event) => {
 });
 
 
-export const loadLocation = () =>{
-    fetchLocations(),
-    fetchCharactersByLocationId(),
-    createCharacterCard(),
-    renderCharacters()
-}
+// export const loadLocation = () =>{
+//     fetchLocations(),
+//     fetchCharactersByLocationId(),
+//     createCharacterCard(),
+//     renderCharacters()
+// }

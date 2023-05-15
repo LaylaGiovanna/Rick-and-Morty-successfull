@@ -112,9 +112,9 @@ episodeSelect.addEventListener("change", (event) => {
 });
 
 
-export const loadEpisodes = () =>{
-    fetchEpisodes(),
-    fetchCharactersByEpisodeId(),
-    createCharacterCard(),
-    renderCharacters()
-}
+// export const loadEpisodes = () =>{
+//     fetchEpisodes(),
+//     fetchCharactersByEpisodeId(),
+//     createCharacterCard(),
+//     renderCharacters()
+// }
